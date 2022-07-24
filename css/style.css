@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+  color: white;
+}
+
+.cuerpo {
+  background: rgb(242, 82, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(242, 82, 232, 1) 0%,
+    rgba(137, 52, 193, 1) 36%,
+    rgba(54, 52, 115, 1) 100%
+  );
+}
+
+.contenedor {
+  border: solid 2px #f29b30;
+  width: 1000%;
+  max-width: 1000px;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 220px;
+}
+
+.cabecera img {
+  width: 150px;
+}
+
+.cabecera h1 {
+  position: absolute;
+  top: 40px;
+  left: 270px;
+  color: #f29b30;
+}
+
+.cabecera_frase {
+  position: absolute;
+  top: 80px;
+  left: 255px;
+}
+
+.link {
+  margin: 10px 10px 0 0;
+  position: absolute;
+  background: none;
+  height: auto;
+  width: unset;
+  border: none;
+  top: 5px;
+  left: 700px;
+  text-decoration: none;
+}
+
+.link1 {
+  color: #f29b30;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.link2 {
+  color: #f29b30;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.link3 {
+  color: #f29b30;
+  padding: 5px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.slider{
+  width: 800px;
+  height: 600px;
+  border-radius: 20px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: 800px;
+  height: 500px;
+}
+
+.navegation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: 550px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 3px solid #F29B30;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #f29b30;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}

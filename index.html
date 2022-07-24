@@ -1,153 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="shortcut icon" href="img/THREE CLOUDS PNG.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/42ec7ee6fe.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="shortcut icon" href="img/THREE CLOUDS PNG.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"/>
+  </head>
 
-<body class="cuerpo">
+  <body class="cuerpo">
     <div class="contenedor">
-        <div class="cabecera">
-            <header>
-                <figure>
-                    <img src="img/THREE CLOUDS PNG.png" alt="">
-                </figure>
-                <h1 class="cabecera_h1">Web de ventas</h1>
-                <p class="cabecera_frase">Comercializacion de productos en linea
-            </header>
-            <nav class="link">
-                <a href="" class="link1">Nosotros</a>
-                <a href="" class="link2">Contactenos</a>
-                <a href="" class="link3">Registrarse</a>
-            </nav>
+      <div class="cabecera">
+        <header>
+          <figure>
+            <img src="img/THREE CLOUDS PNG.png" alt="" />
+          </figure>
+          <h1 class="cabecera_h1">Web de ventas</h1>
+          <p class="cabecera_frase">Comercializacion de productos en linea</p>
+        </header>
+
+        <nav class="link">
+          <a href="" class="link1">Nosotros</a>
+          <a href="" class="link2">Contactenos</a>
+          <a href="form_clients.html" class="link3">Registrarse</a>
+        </nav>
+      </div>
+      <!--Carousel-->
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <div class="slide first">
+            <img src="img/imagen1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/imagen2.webp" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/imagen3.webp" alt="">
+          </div>
+        <div class="navegation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
         </div>
-        <div class="galerias">
-            <div class="galeria_lienzo">
-                <input type="radio" class="elemento1" id="A">
-                <input type="radio" class="elemento2" id="B">
-                <input type="radio" class="elemento3" id="C">
-                <div class="galeria_contenedores">
-                    <figure>
-                        <img src="img/imagen1.jpg" alt="">
-                    </figure>
-                    <figure>
-                        <img src="img/imagen2.webp" alt="">
-                    </figure>
-                    <figure>
-                        <img src="img/imagen3.webp" alt="">
-                    </figure>
-                </div>
-            </div>
         </div>
-        <div class="controles">
-            <label for="A"></label>
-            <label for="B"></label>
-            <label for="C"></label>
-        </div>
-        <section class="Modulos">
-            <article class="Modulo_1">
-                <figure>
-                    <center>
-                        <img src="img/Clientes.png" alt="" width="100px">
-                    </center>
-                </figure>
-                <center>
-                    <h3 >CLIENTES</h3>
-                    <p>
-                        Registro y actualizacion de datos del cliente
-                    </p>
-                </center>
-            </article>
+      </div>
+      <section class="Modulos">
+        <article class="Modulo_1">
+          <figure>
+            <center>
+              <img src="img/Clientes.png" alt="" width="100px" />
+            </center>
+          </figure>
+          <center>
+            <h3>CLIENTES</h3>
+            <p>Registro y actualizacion de datos del cliente</p>
+          </center>
+        </article>
 
-            <article class="Modulo_2">
-                <figure class="Premium">
-                    <center>
-                        <img src="img/Premium.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>THREE CLOUDS</h3>
-                        <p>
-                            Formas de adquirir servicios CLOUDS, licensias, terminos y condiciones
-                        </p>
-                    </center>
-                </figure>
-            </article>
+        <article class="Modulo_2">
+          <figure class="Premium">
+            <center>
+              <img src="img/Premium.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>THREE CLOUDS</h3>
+              <p>
+                Formas de adquirir servicios CLOUDS, licensias, terminos y
+                condiciones
+              </p>
+            </center>
+          </figure>
+        </article>
 
-            <article class="Modulo_3">
-                <figure class="Configuracion">
-                    <center>
-                        <img src="img/Menu.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>CONFIGURACION Y ENTORNO</h3>
-                        <p>
-                            Configuracion Cloud de acuerdo al servicio adquirido
-                        </p>
-                    </center>
-                </figure>
-            </article>
+        <article class="Modulo_3">
+          <figure class="Configuracion">
+            <center>
+              <img src="img/Menu.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>CONFIGURACION Y ENTORNO</h3>
+              <p>Configuracion Cloud de acuerdo al servicio adquirido</p>
+            </center>
+          </figure>
+        </article>
 
-            <article class="Modulo_4">
-                <figure class="Notificacion">
-                    <center>
-                        <img src="imgNotificacion.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>NOTIFICACION</h3>
-                        <p>
-                            Mensajes;Actualizaciones, ofertas, versionamiento
-                        </p>
-                    </center>
-                </figure>
-            </article>
+        <article class="Modulo_4">
+          <figure class="Notificacion">
+            <center>
+              <img src="img/Notificacion.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>NOTIFICACION</h3>
+              <p>Mensajes;Actualizaciones, ofertas, versionamiento</p>
+            </center>
+          </figure>
+        </article>
 
-            <article class="Modulo_5">
-                <figure class="Preguntas">
-                    <center>
-                        <img src="img/Preguntas.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>PREGUNTAS FRECUENTES</h3>
-                        <p>
-                            Preguntas frecuentes del uso adecuado del servicio Cloud, depuracion de archivos, etc
-                        </p>
-                    </center>
-                </figure>
-            </article>
+        <article class="Modulo_5">
+          <figure class="Preguntas">
+            <center>
+              <img src="img/Preguntas.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>PREGUNTAS FRECUENTES</h3>
+              <p>
+                Preguntas frecuentes del uso adecuado del servicio Cloud,
+                depuracion de archivos, etc
+              </p>
+            </center>
+          </figure>
+        </article>
 
-            <article class="Modulo_6">
-                <figure class="Archivos_M">
-                    <center>
-                        <img src="img/Archivos.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>CONTROL DE ARCHIVOS</h3>
-                        <p>
-                            Gestion de los archivos de la nube
-                        </p>
-                    </center>
-                </figure>
-            </article>
+        <article class="Modulo_6">
+          <figure class="Archivos_M">
+            <center>
+              <img src="img/Archivos.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>CONTROL DE ARCHIVOS</h3>
+              <p>Gestion de los archivos de la nube</p>
+            </center>
+          </figure>
+        </article>
 
-            <article class="Modulo_7">
-                <figure class="HelpDesk">
-                    <center>
-                        <img src="img/Editor.png" alt="" width="100px" />
-                    </center>
-                    <center>
-                        <h3>HELPDESK</h3>
-                        <p>
-                            Mesa de ayuda virtual
-                        </p>
-                    </center>
-                </figure>
-            </article>
-        </section>
+        <article class="Modulo_7">
+          <figure class="HelpDesk">
+            <center>
+              <img src="img/Editor.png" alt="" width="100px" />
+            </center>
+            <center>
+              <h3>HELPDESK</h3>
+              <p>Mesa de ayuda virtual</p>
+            </center>
+          </figure>
+        </article>
+      </section>
     </div>
-</body>
+  </body>
 </html>
